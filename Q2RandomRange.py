@@ -2,12 +2,9 @@
 # Your program will output a random number between the range given by the user.
 import random
 
-# Prompt the user for the range values
 start = float(input("Enter the starting number of the range: "))
 end = float(input("Enter the ending number of the range: "))
 
-# Generate a random number between the given range
 random_number = random.uniform(start, end)
 
-# Display the result
 print(f"A random number between {start} and {end} is: {random_number:.2f}")
